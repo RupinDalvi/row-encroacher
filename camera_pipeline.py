@@ -45,7 +45,7 @@ try:
     from ultralytics import YOLO  # type: ignore
     # Attempt to load a small YOLOv26 model.  You can replace 'yolov26n.pt' with
     # another weight file path if you have downloaded one.
-    _MODEL_PATH = "yolov26n.pt"
+    _MODEL_PATH = "yolo26n.pt"
     if os.path.exists(_MODEL_PATH):
         yolo_model = YOLO(_MODEL_PATH)
         print(f"Loaded YOLO model from {_MODEL_PATH}")
